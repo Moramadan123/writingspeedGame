@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Testing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="">
+
+</head>
+<body>
+    <div class="game">
+        <div class="name">Typing Speed Testing Game</div>
+        <div class="container">
+            <select class="select" id="mySelect">
+                <option value="Normal">Normal</option>
+                <option value="Easy">Easy</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <div class="message">
+                You Are Playing on
+                <span class="lvl"></span>Leval and You Have <span class="seconds"></span>Seconds To type the word
+            </div>
+            <div class="start">Start Playing</div>
+            <div class="the-word"></div>
+            <input type="text" class="input">
+            <div class="upcoming-words">
+            </div>
+            <div class="control">
+                <div class="time"> Time Left: <span></span> Seconds</div>
+                <div class="score">Score: <span class="got"> 0 </span>From <span class="total"></span></div>
+            </div>
+            <div class="finish"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
